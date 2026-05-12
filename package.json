@@ -1,7 +1,12 @@
 {
-  "name": "my-node-app",
+  "name": "aparat-viewer",
   "version": "1.0.0",
+  "description": "Aparat Live Viewer",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
   }
 }
